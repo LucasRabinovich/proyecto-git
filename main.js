@@ -1,8 +1,4 @@
-// Función saludo usando template strings
-function saludo(nombre, mensaje) {
-  console.log(`${mensaje}, ${nombre}!`);
+// Rama "main"
+function saludo(nombre, edad) {
+  console.log(`Hola ${nombre}, tienes ${edad} años.`);
 }
-
-// Ejemplos de uso:
-saludo("Rosario", "¡Hola"); 
-saludo("Pepe", "¡Buen trabajo");
